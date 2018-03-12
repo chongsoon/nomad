@@ -15,7 +15,7 @@ for (env in hashiui_envs) {
                   git {
                       branches('master')
                       remote {
-                          url('https://github.com/chongsk/nomadfiles.git')
+                          url('https://github.com/leofireng86/nomadfiles.git')
                       }
                   }
               }
