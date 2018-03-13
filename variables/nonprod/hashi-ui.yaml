@@ -8,6 +8,6 @@ version: 'v0.13.1'
 urlprefix: 'hashi-ui.nonprod.host/'
 
 # Resources
-cpu: 100
+cpu: 800
 memory: 200
 mbits: 1
