@@ -26,8 +26,8 @@ job "hashi-ui" {
       }
       
       env{
-        NOMAD_ENABLE=1
-        NOMAD_ADDR=http://192.168.85.3:4646
+        NOMAD_ENABLE = "1"
+        NOMAD_ADDR = "http://192.168.85.3:4646"
       }
 
       service {
