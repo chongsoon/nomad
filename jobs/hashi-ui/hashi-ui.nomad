@@ -23,7 +23,7 @@ job "hashi-ui" {
         port_map {
           http = 3000
         }
-        args = ["-e NOMAD_ENABLE=1 -e NOMAD_ADDR=http://192.168.85.3:4646"]
+        args = ["-e NOMAD_ENABLE=1", "-e NOMAD_ADDR=http://192.168.85.3:4646"]
         
       }
       
