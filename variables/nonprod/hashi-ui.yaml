@@ -2,7 +2,7 @@ datacenter: 'dc1'
 region: 'global'
 
 # Artifact
-version: 'v0.13.1'
+version: 'latest'
 
 # URLPrefix
 urlprefix: 'hashi-ui.nonprod.host/'
