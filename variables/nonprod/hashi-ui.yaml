@@ -9,5 +9,5 @@ urlprefix: 'hashi-ui.nonprod.host/'
 
 # Resources
 cpu: 100
-memory: 64
+memory: 200
 mbits: 1
