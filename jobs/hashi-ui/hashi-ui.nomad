@@ -24,6 +24,11 @@ job "hashi-ui" {
           http = 3000
         }
       }
+      
+      env{
+        NOMAD_ENABLE=1
+        NOMAD_ADDR=http://192.168.85.3:4646
+      }
 
       service {
         name = "hashi-ui"
