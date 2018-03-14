@@ -8,6 +8,7 @@ job "hashi-ui" {
   update {
     stagger      = "30s"
     max_parallel = 1
+    auto_revert = true
   }
 
   group "hashi-ui" {
