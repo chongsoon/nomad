@@ -22,7 +22,7 @@ job "hashi-ui" {
         image = "jippi/hashi-ui:[[.version]]"
 
         port_map {
-          http = 3000
+          http = 3002
         }
         
       }
@@ -52,9 +52,7 @@ job "hashi-ui" {
 
         network {
           mbits = [[.mbits]]
-          port  "http"{
-            static = "3002"
-          }
+          port  "http"{}
         }
       }
     }
