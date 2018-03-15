@@ -1,4 +1,3 @@
-#testing
 # This job will deploy https://github.com/jippi/hashi-ui using the
 # docker driver.
 job "hashi-ui" {
