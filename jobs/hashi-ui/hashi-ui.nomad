@@ -20,6 +20,7 @@ job "hashi-ui" {
       driver = "docker"
 
       config {
+        netowrk_mode = "host"
         image = "jippi/hashi-ui:[[.version]]"
         port_map {
           http = 3000
