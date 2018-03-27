@@ -9,7 +9,9 @@ job "hashi-ui" {
   update {
     stagger      = "30s"
     max_parallel = 1
-    auto_revert = true
+    min_healthy_time = "10s"
+    healthy_deadline = "10m"	
+	  auto_revert      = true
   }
 
   group "hashi-ui" {
@@ -20,7 +22,7 @@ job "hashi-ui" {
       driver = "docker"
 
       config {
-        network_mode = "host"
+        #network_mode = "host"
         image = "jippi/hashi-ui:[[.version]]"
       }
       
