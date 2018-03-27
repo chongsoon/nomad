@@ -20,6 +20,7 @@ job "hashi-ui" {
       driver = "docker"
 
       config {
+        address_mode = "host"
         image = "jippi/hashi-ui:[[.version]]"
         port_map {
           http = 3000
@@ -36,6 +37,7 @@ job "hashi-ui" {
 
         check {
           type     = "http"
+          address_mode = "host"
           path     = "/"
           interval = "10s"
           timeout  = "2s"
