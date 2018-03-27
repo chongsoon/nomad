@@ -13,6 +13,7 @@ node {
               levant deploy\
               -address=http://${nomad_url}:4646\
               -var-file=./variables/${nomad_env}/hashi-ui.yaml\
+              -log-level=debug\
               ./jobs/${nomad_job}/${nomad_job}.nomad
               """
         }
