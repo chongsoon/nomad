@@ -38,7 +38,7 @@ job "hashi-ui" {
         check {
           type     = "http"
           address_mode = "host"
-          path     = "/"
+          #path     = "/"
           interval = "10s"
           timeout  = "2s"
         }
