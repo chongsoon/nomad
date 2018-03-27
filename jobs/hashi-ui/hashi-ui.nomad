@@ -22,10 +22,6 @@ job "hashi-ui" {
       config {
         network_mode = "host"
         image = "jippi/hashi-ui:[[.version]]"
-        port_map {
-          http = 3001
-        }
-        
       }
       
       service {
