@@ -34,7 +34,7 @@ job "hashi-ui" {
         check {
           type     = "http"
           address_mode = "host"
-          path     = "http://ec2-13-251-18-205.ap-southeast-1.compute.amazonaws.com"
+          path     = "/"
           interval = "10s"
           timeout  = "2s"
         }
